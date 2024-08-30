@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@400;600;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="script" href="./script2.js">
+    <title>TOO • LITTLE: New Bites(Under Maintenance)</title>
+</head>
+<body>
+    <script src="./script2.js"></script>
+    
+    <nav class="nav-bar scrolled" id="new-nav">
+        <a href="./main2.html" class="logo">TOO LITTLE</a>
+
+        <ul class="nav-link" id="nav-link">
+            <div onclick="closeNav()" class="closeNav" id="closeNav">&times;</div>
+            <li><a class="toggle" href="./main2.html">Home</a></li>
+            <li><a class="toggle" href="#">New Bites</a></li>
+            <li><a class="toggle" href="./main2.html#ALL">Shop All</a></li>
+            <li><a class="toggle" href="./main2.html#ABOUT">About Us</a></li>
+            <li><a class="toggle" href="./contactUs.html">Contact Us</a></li>
+        </ul>
+        <div class="icons">
+            <div> <img onclick="openSearch()" src="./images/search-regular-24.png" alt="search icon"></div>
+            <div> <img onclick="openCart()" src="./images/cart-regular-24.png" alt="cart icon" ></div>
+            <div onclick="openNav()" class="openNav" id="openNav">&#9776;</div>
+            <a href="./login_signup.html"> <img src="./images/log-in-regular-24.png" alt="sign/log in icon"></a>
+        </div>
+
+        <div class="search-container" id="search">
+                <button for="submit"> <img type="button" src="./images/search-regular-24.png" alt="search icon"></button>
+                <input type="text" placeholder="Search our store for..."/>
+                <div onclick="closeSearch()" class="closeSearch">&times;</div>
+        </div>
+        <div class="cart" id="cart">
+            <div class="cart-container">
+                <div id="openCart" class="cart-item">
+                    <div onclick="closeCart()" class="closeCart">&times;</div>
+                    <p>No product in your shopping cart.</p>
+                    <a href="./checkout.html" class="check-submit-btn">Checkout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="main-wrap single-item">
+        <div class="item-row">
+            <div class="item-col">
+                <img src="./images/xhs xmas2.jpeg" id="item-img" alt="xmas set">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img class="small-img" src="./images/xhs xmas3.jpeg">
+                    </div>
+                    <div class="small-img-col">
+                        <img class="small-img" src="./images/xhs xmas8.jpg">
+                    </div>
+                    <div class="small-img-col">
+                        <img class="small-img" src="./images/xhs xmas1.jpg">
+                    </div>
+                    <div class="small-img-col">
+                        <img class="small-img" src="./images/xhs xmas6.jpeg">
+                    </div>
+                </div>
+                <div class="item-col">
+                    <p>New / Christmas Specials</p>
+                    <h1>Festive Cakes</h1>
+                    <h4>RM17.90</h4>
+                    <select>
+                        <option>Select Cake</option>
+                        <option>Mushroom</option>
+                        <option>Tree</option>
+                        <option>Snowman</option>
+                        <option>Mini Tree</option>
+                        <option>Pumpkin</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="" class="item-btn">Add to Cart</a>
+                    <h3>Product Details</h3>
+                    <br>
+                    <p>"Spread the joy of Christmas with our enchanting Christmas Star Cake, a radiant confection that will illuminate your holiday table."</p>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <section class="footer">
+        <div class="social-media">
+            <div> <img src="./images/facebook-logo-24.png" alt="facebook icon"></div>
+            <div> <img src="./images/instagram-logo-24.png" alt="instagram icon"></div>
+            <div> <img src="./images/whatsapp-logo-24.png" alt="whatsapp icon"></div>
+        </div>
+
+        <div class="link">
+            <a href="./main2.html">Home</a>
+            <a href="#">New Bites</a>
+            <a href="./main2.html#ALL">Shop All</a>
+            <a href="./main2.html#ABOUT">About Us</a>
+            <a href="./contactUs.html">Contact Us</a>
+        </div>
+
+        <div class="credit">&copy; 2023 TOO LITTLE  |  All Rights Reserved.<br><span>Design by Christina Yap Xin Yi (23028541).
+            <br><br>Creation Date: Oct 30 2023<br>Data Collection Date: Oct 28 2023<br>Last Update: <div id="dateDisplay"></div></span>
+        </div>
+    </section>
+
+</body>
+</html>
