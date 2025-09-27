@@ -17,8 +17,12 @@ This project was developed as my **First Year Web Fundamentals Final Assessment*
 
 ## 📸 Preview  
 
-> *(Insert screenshots or GIFs of your landing page, shop, and cart here )*  
-
+![alt text](https://github.com/ChristinaTUNA/Bakery-Website/blob/main/preview%20screenshot/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-27%20143134.png) 
+![alt text](https://github.com/ChristinaTUNA/Bakery-Website/blob/main/preview%20screenshot/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-27%20143359.png)
+![alt text](https://github.com/ChristinaTUNA/Bakery-Website/blob/main/preview%20screenshot/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-27%20143550.png)
+![alt text](https://github.com/ChristinaTUNA/Bakery-Website/blob/main/preview%20screenshot/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-27%20143618.png)
+![alt text](https://github.com/ChristinaTUNA/Bakery-Website/blob/main/preview%20screenshot/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-27%20143643.png)
+![alt text](https://github.com/ChristinaTUNA/Bakery-Website/blob/main/preview%20screenshot/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-27%20143733.png)
 
 ## 🎨 Design  
 
